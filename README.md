@@ -19,4 +19,47 @@ Command example:
 › ansible -i "fed22," -m ping all
 ```
 
-The text to copy is after the `>`
+The text to copy is after the `>` - Any all caps replace with your info.
+
+## Test Servers
+
+All test servers are hosted by Digital Ocean.  Referrals appreciated
+
+(Referral Link)[https://www.digitalocean.com/?refcode=980586449ebd]
+
+---
+
+ # Ansible CLI
+
+ ### ping
+
+ ```
+ 2.2.3 in intro-to-ansible-workshop/ on master
+ › ansible -i "SERVER," -m ping all
+ ```
+
+ ### ls -al /home
+
+ ```
+ 2.2.3 in intro-to-ansible-workshop/ on master
+ › ansible -i "SERVER," -m command -a "ls -al ~" all
+ ```
+
+ ### install ntp with yum module
+
+ ```
+ 2.2.3 in intro-to-ansible-workshop/ on master
+ › ansible -i "SERVER," -m yum -a "name=ntp state=present" all
+ ```
+
+ ### install and configure Tomcat & deploy sample.war
+
+ ```
+ 2.2.3 in intro-to-ansible-workshop/ on master
+ › git clone https://github.com/e30chris/Ansible-ApacheTomcat.git
+ ```
+
+```
+2.2.3 in intro-to-ansible-workshop/ on master
+› ansible-playbook -i "SERVER," site.yml -vvvv
+```
