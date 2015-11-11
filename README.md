@@ -57,6 +57,7 @@ All test servers are hosted by Digital Ocean.  Referrals appreciated
  ```
  2.2.3 in intro-to-ansible-workshop/ on master
  › git clone https://github.com/e30chris/Ansible-ApacheTomcat.git
+ › cd Ansible-ApacheTomcat/
  ```
 
 ```
