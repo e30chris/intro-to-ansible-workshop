@@ -25,7 +25,7 @@ The text to copy is after the `>` - Any all caps replace with your info.
 
 All test servers are hosted by Digital Ocean.  Referrals appreciated
 
-(Referral Link)[https://www.digitalocean.com/?refcode=980586449ebd]
+[Referral Link](https://www.digitalocean.com/?refcode=980586449ebd)
 
 ---
 
